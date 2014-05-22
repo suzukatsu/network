@@ -1,4 +1,4 @@
-BJS=ltest.o
+OBJS=ltest.o
 SRCS=$(OBJS:%.o=%.c)
 CFLAGS=-g -Wall
 LDLIBS=
